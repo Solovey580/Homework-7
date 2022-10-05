@@ -350,37 +350,293 @@ a.Popular-boxs:hover {
 
 
 .box5-product{
-    margin-right: 30px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between ;
+    
+}
+
+
+
+/*You may like*/
+
+
+.tex-may-like{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1110px;
+    height: 67px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.You-may-like{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    
+}
+
+
+
+/*sex-blok-size*/
+
+
+.grid-class{
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 487px 487px;
+    border-color: #000;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.like-items{
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.like-img{
+    margin-bottom: 16px;
+}
+
+.like-btn{
+    width: 44px;
+    margin-left: 290px;
+    margin-top: 16px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.like-title{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+
+.like-text{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 24px;
+    margin-bottom: 27px;
+
+}
+
+
+.like-button{
+    width: 308px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+
+.price{
+    width: 92px;
+    height: 37px;
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.Shop-btn{
+    width: 153px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B2437;
+    border-radius: 15px;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+
+a.Shop-btn:hover {
+    color: #fff;
+    background-color: #eda3b5;
+    transition: ease .3s;
+}
+
+/*CONTACT*/
+
+
+.contacts-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1110px;
+    height: 67px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    margin-left: 165px;
+}
+
+.Contacts{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+}
+
+/*CONTACT-INFO*/
+
+.Contacts-info{
+    width: 1110px;
+    height: 658px;
+    padding: 12px 12px 25px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-left: 165px;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-info{
+    width: 940px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.contact-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    
+}
+.a-href-aderres{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*END-CONTACT*/
+
+.footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1440px;
+    height: 407px;
+    margin-top: 70px;
+    padding-top: 32px;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.footer-content{
+    display: flex;
+    width: 1110px;
+    height: 333px;
+}
+
+.footer-tex{
+    height: 180px;
+    width: 255px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 24px;
+    color: #5c5c5c;
+    margin-right: 126px;
+}
+
+
+
+.footer-nav{
+    display: flex;
     justify-content: space-between;
-    
+    width: 694px;
 }
 
-
-
-
-
-
-
-h5{
+ul{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #8e8e93;
     
+}
+.li-list{
+    color: inherit;
+    text-decoration: none;
+}
+
+li{
+    margin-bottom: 22px;
+    cursor: pointer;
+    list-style-type:none;
+}
+
+h4{
+    font-family: "Playfair Display", serif;
     font-size: 18px;
-    font-weight: 700;
-    
-    
+    font-weight: 900;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 22px;
+    margin-left: 30px;
+}
 
+    /*copyright*/
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 74px;
+}
+
+.end-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+.media-nav{
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
-
-
-
-
-
-
-.slider{
-   
+address{
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #8e8e93;
 }
