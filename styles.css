@@ -1,0 +1,386 @@
+body{
+   width: 100%;
+   background-color:#FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   flex-direction: column;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Rochester", cursive;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+/*header*/
+
+.header{
+    width: 100%;
+    height: 722px;
+}
+
+.header-nav{
+    height: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+
+.top-navi{
+    height: 74px;
+    width: 1112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.Logo{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+.media-nav{
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.another-nav{
+    width: 132px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.butoon-nav{
+    height: 79px;
+    width: 555px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    color: black;
+
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.nav-link:hover {
+    color: #dd718c;
+    transition: ease 0.3s;
+  }
+
+  .rectangle {
+    width: 34px;
+    height: 3px;
+  }
+
+  a:hover .rectangle {
+    background-color: #eda3b5;
+    transition: ease 0.3s;
+  }
+
+
+  .top-link:hover {
+    cursor: pointer;
+    transition: ease 0.3s;
+    transform: scale(1.2);
+  }
+
+
+
+.preview{
+    width: 100%;
+    height: 569px;
+    background-image: url(./img/hero.png);
+    padding-top: 103px;
+    padding-left: 164px;
+}
+
+.name-Admire{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 348px;
+}
+
+.header-link{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 67px;
+    color: #fff;
+}
+
+.header-tex{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 13px;
+    margin-bottom: 34px;
+}
+
+
+
+.header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 77px;
+    background-color: #1b2437;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+a.header-btn:hover {
+    color: #fff;
+    background-color: #eda3b5;
+    transition: ease .3s;
+}
+
+
+/*Women-Collection*/
+/*box-1*/
+.main-content{
+    width: 1110px;
+    margin-top: 71px;
+    margin-left: 163px;
+}
+
+.wrapper{
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box1-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -190px;
+    margin-left: 32px;
+    z-index: 99;
+}
+.box-size{
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 45px;
+    color: #fff;
+}
+
+
+.tex-spring{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 2px 0 8px 0;
+    color: #fff;
+
+}
+
+.Popular-boxs{
+    display: flex;
+    width: 93px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a.Popular-boxs:hover {
+    background-color: #eda3b5;
+    transition: ease .3s;
+}
+
+
+/*box-2*/
+
+.box-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: -1rem;
+    margin-bottom: -1rem;
+}
+
+.tex-2022{
+    margin-top: -172px;
+    margin-left: 22px;
+}
+
+.box24-title{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1B2437;
+}
+
+
+.women-collection{
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 45px;
+    color: #1B2437;
+}
+
+/*box-3*/
+
+.box-3{
+    width: 303px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 16px;
+    
+    
+}
+
+.box3-title{
+    margin-top: -172px;
+    margin-left: 39px;
+
+}
+
+.box-size{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 2px 0 8px 0;
+    color: #fff;
+}
+
+
+.tex-spring{
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 45px;
+    color: #fff;
+}
+
+
+/*box-4*/
+
+.box-4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-bottom: -30px;
+}
+
+.box4-title{
+    margin-top: -140px;
+    margin-left: 22px;
+}
+
+
+.box24-title{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1B2437;
+}
+
+
+/*box-5*/
+
+.box-5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: #fff;
+    border-radius: 16px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.product-wrapper{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+.box5-product{
+    margin-right: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+h5{
+    
+    font-size: 18px;
+    font-weight: 700;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+.slider{
+   
+}
